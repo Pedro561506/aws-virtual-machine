@@ -13,7 +13,7 @@ terraform {
 }
 
  backend "s3" {
-    bucket       = "aws-s3-tfstate-<vasco1>"  # SUBSTITUA
+    bucket       = "vasco1"  # SUBSTITUA
     key          = "tfstate"
     region       = "us-east-1"
     use_lockfile = true
